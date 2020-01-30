@@ -4,9 +4,15 @@
 package githubgreeter;
 
 public class GitHubGreeter {
-
+    private String name;
+    
   // Write the welcome method here
-
+    public String welcome(String n) {
+        name = n;
+        return "Welcome to GitHub," + " " + name + ".";
+    }
   // Write the wishes method here
-
+    public String wishes() {
+        return "Have a great semester in CSC 241";
+    }
 }
