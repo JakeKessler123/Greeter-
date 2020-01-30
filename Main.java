@@ -6,6 +6,7 @@ public class Main{
     GitHubGreeter greeter = new GitHubGreeter();
 
     // Call the methods you wrote and confirm the correct format
-
+    greeter.welcome("Jake");
+    greeter.wishes();
   }
 }
